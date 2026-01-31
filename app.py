@@ -58,7 +58,7 @@ else:
 
 # Criação das colunas para exibir as métricas
 col1, col2, col3, col4, = st.columns(4)
-col1.metric("Salário Médioo", f"${salario_medio:,.0f}")
+col1.metric("Salário Médio", f"${salario_medio:,.0f}")
 col2.metric("Salário Máximo", f"${salario_maximo:,}")
 col3.metric("Total de Registros", f"{total_registros:,}")
 col4.metric("Cargo Mais Frequente", f"{cargo_mais_frequente}")
@@ -136,4 +136,5 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado)
