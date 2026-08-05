@@ -22,7 +22,7 @@ A aplicação consome uma base de dados remota contendo informações globais so
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Python 3.x**
+* **Python 3**
 * **[Streamlit](https://streamlit.io/):** Framework para criação de interfaces web e dashboards interativos.
 * **[Pandas](https://pandas.pydata.org/):** Manipulação, tratamento e filtragem dos dados.
 * **[Plotly Express](https://plotly.com/python/plotly-express/):** Criação de gráficos interativos e mapas.
@@ -38,31 +38,17 @@ Certifique-se de ter o **Python 3+** e o `pip` instalados no seu computador.
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/dashboard-salarios-dados.git
-   cd dashboard-salarios-dados
+   git clone https://github.com/KK4K4/dashboard-imers-o-alura.git
+   cd dashboard-imers-o-alura
    ```
 
-2. **(Opcional) Criar e ativar um ambiente virtual:**
-   * **Linux/macOS:**
-     ```bash
-     python3 -m venv venv
-     source venv/bin/activate
-     ```
-   * **Windows:**
-     ```bash
-     python -m venv venv
-     venv\Scripts\activate
-     ```
-
-3. **Instalar as dependências:**
+2. **Instalar as dependências:**
    ```bash
-   pip install -r requirements.txt
+   python -m pip install -r requirements.txt
    ```
 
-4. **Executar a aplicação Streamlit:**
+3. **Executar a aplicação Streamlit:**
    ```bash
-   streamlit run app.py
+   python -m streamlit run app.py
    ```
-
-5. **Acessar o Dashboard:**
-   O Streamlit abrirá automaticamente uma aba no seu navegador padrão no endereço `http://localhost:8501`.
+O Streamlit abrirá automaticamente uma aba no seu navegador padrão no endereço `http://localhost:8501`.
